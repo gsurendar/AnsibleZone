@@ -14,7 +14,7 @@
         state: present
     - name: enable and start apache2
       service:
-        name:"{{ package }}"
+        name: "{{ package }}"
         enabled: yes
         state: started
     - name: install php packages
